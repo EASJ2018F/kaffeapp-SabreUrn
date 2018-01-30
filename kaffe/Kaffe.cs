@@ -43,6 +43,10 @@ namespace kaffe
             //this.Rabat = 0;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="rabat"></param>
         public Kaffe(int rabat)
         {
             this.Rabat = rabat;

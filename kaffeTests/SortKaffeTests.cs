@@ -50,5 +50,18 @@ namespace kaffe.Tests
 
         }
 
+        [TestMethod]
+        public void TestSortKaffe_PrisWithRabatLessThan20() {
+            //arrange
+            SortKaffe sortKaffe = new SortKaffe(10);
+
+            //act
+            int expected = 10;
+            int actual = sortKaffe.Pris();
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }

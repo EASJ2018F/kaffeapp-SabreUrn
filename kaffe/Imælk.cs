@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface Imælk
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         int MlMælk();
     }
 }
